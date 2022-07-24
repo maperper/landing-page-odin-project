@@ -1,0 +1,58 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+header {
+  margin-top: 2rem !important;
+}
+
+header, main {
+  width: 80%;
+  margin: auto;
+}
+
+html {
+  background-color: black;
+}
+
+.upper-header {
+  color: white;
+  display: flex;
+}
+
+.header-links > a {
+  text-decoration: none;
+  color: white; 
+}
+
+.lower-header {
+  background-color: midnightblue;
+  color: white;
+}
+
+.header-logo {
+  flex: 1;
+}
+
+.header-links {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lower-header {
+  display: flex;
+}
+
+.left-lower-header {
+  flex: 1;
+}
+
+.right-lower-header {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
