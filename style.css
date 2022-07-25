@@ -4,8 +4,8 @@
    margin: 0;
 }
 
-header {
-  margin-top: 2rem !important;
+html {
+  background-color: black;
 }
 
 header, main {
@@ -13,13 +13,16 @@ header, main {
   margin: auto;
 }
 
-html {
-  background-color: black;
+header {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 1rem 6rem 6rem 6rem;
 }
 
 .upper-header {
-  color: white;
+  color: #F9FAF8;
   display: flex;
+  margin-bottom: 8rem;
 }
 
 .header-links > a {
@@ -28,31 +31,85 @@ html {
 }
 
 .lower-header {
-  background-color: midnightblue;
-  color: white;
+  display: flex;
 }
 
 .header-logo {
   flex: 1;
+  font-size: 1.5rem;
 }
 
 .header-links {
   flex: 1;
   display: flex;
+  font-size: 18px;
+  color: #F9FAF8;
   justify-content: space-around;
 }
 
-.lower-header {
-  display: flex;
-}
 
 .left-lower-header {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.left-lower-header > p {
+  
+}
+
+.left-lower-header > button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 10px;
+  width: 8rem;
+}
+
+.left-lower-header > h1 {
+  font-size: 48px;
+  font-weight: 800;
 }
 
 .right-lower-header {
+  background-color: grey;
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+main {
+  background-color: #F9FAF8;
+}
+
+article {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex: 1;
+}
+
+.frame {
+  border: 4px solid #3882F6;
+  height: 150px;
+  border-radius: 25px;
+}
+
+.quote {
+  padding: 5% 25% 5% 25%;
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font: 36px light italic ;
+}
+
+.text-signup > button {
 }
