@@ -93,6 +93,7 @@ article {
 
 .card-container {
   display: flex;
+  margin: 2rem 12rem 4rem 12rem;
   justify-content: space-around;
   gap: 2rem;
   flex: 1;
@@ -108,8 +109,45 @@ article {
   padding: 5% 25% 5% 25%;
   background-color: #E5E7EB;
   color: #1F2937;
-  font: 36px light italic ;
+  font: 36px italic ;
+  font-weight: 300;
+  text-align: justify;
 }
 
-.text-signup > button {
+#author {
+  font-weight: 900;
+}
+
+.signup {
+  padding: 5% 10% 5% 10%;
+}
+
+.signup-container {
+  padding: 5% 15% 5% 15%;
+  background-color: #3882F6;
+  display: flex;
+  border-radius: 10px;
+}
+.text-signup {
+  color:#E5E7EB;
+  text-align: left;
+  flex: 2;
+}
+
+#title-text-signup {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#paragraph-text-signup { 
+  font-size: 18px;
+}
+
+#signup-button {
+  padding: 0rem 2.5rem 0rem 2.5rem;
+  font-size: 24px;
+  background-color: #3882F6;
+  border: #F9FAF8 2px solid;
+  color:#E5E7EB;
+  border-radius: 10px;
 }
